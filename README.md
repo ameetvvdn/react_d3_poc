@@ -1,6 +1,9 @@
 D3 React Demo
 ==============
 
+Exploring D3.js (v4): ES2015/ES6, webpack, D3 and React.js
+
+
 # Architechture
 React frontend component
 
