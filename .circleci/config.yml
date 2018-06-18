@@ -37,3 +37,8 @@ jobs:
       - run: yarn test
 
 
+deployment:
+  production:
+    branch: dev
+    commands:
+    - ./scripts/deploy-ghpages.sh build
