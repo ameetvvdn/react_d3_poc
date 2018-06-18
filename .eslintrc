@@ -1,0 +1,70 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "jest": true
+  },
+  "extends": "airbnb",
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16.4.1"
+    }
+  },
+  "parserOptions": {
+      "ecmaFeatures": {
+          "experimentalObjectRestSpread": true,
+          "module": true,
+          "jsx": true
+      },
+      "sourceType": "module"
+  },
+  "plugins": [
+      "babel",
+      "react"
+  ],
+  "rules": {
+      "no-console": [
+        "error",
+        { "allow": ["warn", "error"] }
+      ],
+      "indent": [
+          "error",
+          2,
+          {
+            "SwitchCase": 1
+          }
+      ],
+      "quotes": [
+          "error",
+          "single"
+      ],
+      "semi": [
+          "error",
+          "always"
+      ],
+      "linebreak-style": "off",
+      "no-mixed-operators": "off",
+      "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+      "no-use-before-define": "off",
+      "global-require": "off",
+      "comma-dangle": ["error", {
+          "arrays": "always-multiline",
+          "objects": "always-multiline",
+          "imports": "always-multiline",
+          "exports": "always-multiline",
+          "functions": "ignore"
+      }],
+      "import/prefer-default-export": "off",
+      "react/forbid-prop-types": "off",
+      "no-prototype-builtins": "off",
+      "no-restricted-syntax": "off",
+      "no-plusplus": "off",
+      "import/no-unresolved": "off",
+      "react/require-default-props": "off",
+      "import/extensions": ["error", {"js": "never"}],
+      "import/no-named-as-default": "off"
+  }
+}

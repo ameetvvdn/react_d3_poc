@@ -1,0 +1,19 @@
+const envVars = {  
+  API_KEYS: {
+    GOOGLE_MAP: JSON.stringify('AIzaSyxxxxxxxxxxxxxxxx'),
+  },
+  SHOPPING_VARS: {
+    SHOP_URL : JSON.stringify('http://devtest.yepzon.com/'),
+    PRODUCT_SLUG: JSON.stringify('product/yepzon-pro-subscription/'),
+    DEVICE_ACCESS_SLUG: JSON.stringify('product/webui-device-access/'),
+  }
+}
+
+const devSpecific = {};
+
+const prodSpecific = {};
+
+module.exports = {
+  dev: Object.assign(envVars, devSpecific),
+  prod: Object.assign(envVars, prodSpecific)
+}
