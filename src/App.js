@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
-import LineChart from './Charts/LineChart/LineChart';
-import BarChart from './Charts/BarChart/BarChart';
+import LineChart from './Charts/LineChart';
+import BarChart from './Charts/BarChart';
 
 class App extends Component {
   render() {
