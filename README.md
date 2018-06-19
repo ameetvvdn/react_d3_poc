@@ -107,6 +107,6 @@ D3.js is a data visualization tool, you need to code and develop your own librar
      - ToolTip.js: ToolTip component show data related to value in line chart 
 
 ## Future Improvements/Scope
- D3 focuses on data, so we can create realtime charts or other visualization tool as data change.
+ D3 focuses on data, so we can create realtime charts or other visualization tool depending upon data. It is not specific to Graphs or Charting and can be used for any type of visualization.
 
 Note: This is just a POC, so basic charts have been created. It doesn't contain any complex or real time chart.
