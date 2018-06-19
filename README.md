@@ -37,6 +37,11 @@ To run in development mode use (npm)
 $ npm run start
 ```
 
+To build a production version use
+```
+$ yarn build
+```
+
 ## Config
 Configurable environment variables can be found in the folders `./config`.
 
@@ -88,7 +93,7 @@ D3.js is a data visualization tool, you need to code and develop your own librar
      - Axes.js: Main responsibility of the Axes component is to prepare correct props for each Axis.
      - Axis.js: Component contains a new group element within the SVG element where we will draw the x and y axis;
      - Bars.js: Bars are rendered completely by React and d3 is used for math. Besides calculating bar dimensions, we can use    d3  to calculate color based on value. 
-     - BarCharts: Component contains SVG element where we will draw the bar chart.
+     - BarCharts.js: Component contains SVG element where we will draw the bar chart.
 
     **2. Line Chart**
     ![Alt text](https://raw.githubusercontent.com/ameetvvdn/react_demo/master/screenshots/LineChart.JPG?raw=true "Optional Title")
@@ -103,7 +108,7 @@ D3.js is a data visualization tool, you need to code and develop your own librar
      - Axis.js: Component contains a new group element within the SVG element where we will draw the x and y axis;
      - Grid.js: Main responsibility of the Grid component is to prepare grids on Axis based on props. 
      - Dots.js: Component shows value plot in line charts.
-     - LineCharts: Component contains SVG element where we will draw the line chart.
+     - LineCharts.js: Component contains SVG element where we will draw the line chart.
      - ToolTip.js: ToolTip component show data related to value in line chart 
 
 ## Future Improvements/Scope
