@@ -12,24 +12,29 @@ React frontend component
 - `./config/` for configuration
 
 # Requirements
-- Yarn/NPM
+- Yarn/npm
 
 ## Development
 
-Install dependencies with
+Install dependencies with yarn
 
 ```
 $ yarn
 ```
+Install dependencies with npm
 
-To run in development mode use
+```
+$ npm install
+```
+
+To run in development mode use 
 ```
 $ yarn start
 ```
 
-To build a production version use
+To run in development mode use (npm)
 ```
-$ yarn build
+$ npm run start
 ```
 
 ## Config
@@ -38,7 +43,7 @@ Configurable environment variables can be found in the folders `./config`.
 ## Style
 The project contains a .eslintrc file that defines the style rules for the project.
 
-## D3
+## About D3
 D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
 D3.js is a data visualization tool, you need to code and develop your own library.
 
@@ -63,5 +68,44 @@ D3.js is a data visualization tool, you need to code and develop your own librar
 - It is modular. You can use just a small piece of D3 if you don't want to load the whole library each time.
 - It focuses on objects and concepts, not pre-built graphs. You can create TONS of things with curves, arcs, rectangles, points, etc.
 - Easy to plot non-standard visualization: It is not specific to Graphs or Charting and can be used for any type of visualization. As the name itself suggests, it is more of “data driven documents” 
-- Highly customizable because of it’s low-level API
+- Highly customizable because of it’s low-level API.
 
+## D3 in Current Project
+- Type of Charts
+    1. Bar Chart
+    2. Line Chart
+
+1. Bar Chart
+
+    sample.json: [
+        { title: 'A', value: 21, year: 1984 },
+        { title: 'B', value: 81, year: 1985 },
+        { title: 'C', value: 25, year: 1987 }
+    ];
+    
+    Files: 
+     Axes.js: Main responsibility of the Axes component is to prepare correct props for each Axis.
+     Axis.js: Component contains a new group element within the SVG element where we will draw the x and y axis;
+     Bars.js: Bars are rendered completely by React and d3 is used for math. Besides calculating bar dimensions, we can use d3          to calculate color based on value. 
+     BarCharts: Component contains SVG element where we will draw the bar chart.
+
+2. Line Chart
+    ![Alt text](https://raw.githubusercontent.com/ameetvvdn/react_demo/master/screenshots/LineChart.JPG?raw=true "Optional Title")
+    sample.json: [
+        { day: '02-11-2016', count: 180 },
+        { day: '02-12-2016', count: 250 },
+        { day: '02-13-2016', count: 150 },
+        { day: '02-14-2016', count: 496 },
+    ];
+
+    Files: 
+     Axis.js: Component contains a new group element within the SVG element where we will draw the x and y axis;
+     Grid.js: Main responsibility of the Grid component is to prepare grids on Axis based on props. 
+     Dots.js: Component shows value plot in line charts.
+     LineCharts: Component contains SVG element where we will draw the line chart.
+     ToolTip.js: ToolTip component show data related to value in line chart 
+
+## Future Improvements/Scope
+
+
+Note: This is just a POC, so basic charts have been created. It doesn't contain any complex or real time chart.
