@@ -85,10 +85,10 @@ D3.js is a data visualization tool, you need to code and develop your own librar
     ];
     
     Files: 
-     Axes.js: Main responsibility of the Axes component is to prepare correct props for each Axis.
-     Axis.js: Component contains a new group element within the SVG element where we will draw the x and y axis;
-     Bars.js: Bars are rendered completely by React and d3 is used for math. Besides calculating bar dimensions, we can use d3          to calculate color based on value. 
-     BarCharts: Component contains SVG element where we will draw the bar chart.
+     - Axes.js: Main responsibility of the Axes component is to prepare correct props for each Axis.
+     - Axis.js: Component contains a new group element within the SVG element where we will draw the x and y axis;
+     - Bars.js: Bars are rendered completely by React and d3 is used for math. Besides calculating bar dimensions, we can use    d3  to calculate color based on value. 
+     - BarCharts: Component contains SVG element where we will draw the bar chart.
 
     **2. Line Chart**
     ![Alt text](https://raw.githubusercontent.com/ameetvvdn/react_demo/master/screenshots/LineChart.JPG?raw=true "Optional Title")
@@ -100,11 +100,11 @@ D3.js is a data visualization tool, you need to code and develop your own librar
     ];
 
     Files: 
-     Axis.js: Component contains a new group element within the SVG element where we will draw the x and y axis;
-     Grid.js: Main responsibility of the Grid component is to prepare grids on Axis based on props. 
-     Dots.js: Component shows value plot in line charts.
-     LineCharts: Component contains SVG element where we will draw the line chart.
-     ToolTip.js: ToolTip component show data related to value in line chart 
+     - Axis.js: Component contains a new group element within the SVG element where we will draw the x and y axis;
+     - Grid.js: Main responsibility of the Grid component is to prepare grids on Axis based on props. 
+     - Dots.js: Component shows value plot in line charts.
+     - LineCharts: Component contains SVG element where we will draw the line chart.
+     - ToolTip.js: ToolTip component show data related to value in line chart 
 
 ## Future Improvements/Scope
  D3 focuses on data, so we can create realtime charts or other visualization tool as data change.
