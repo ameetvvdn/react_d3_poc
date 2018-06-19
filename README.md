@@ -75,7 +75,7 @@ D3.js is a data visualization tool, you need to code and develop your own librar
     1. Bar Chart
     2. Line Chart
 
-   ** 1. Bar Chart**
+   **1. Bar Chart**
     ![Alt text](https://raw.githubusercontent.com/ameetvvdn/react_demo/master/screenshots/BarChart.JPG?raw=true "Optional Title")
 
     sample.json: [
@@ -107,6 +107,6 @@ D3.js is a data visualization tool, you need to code and develop your own librar
      ToolTip.js: ToolTip component show data related to value in line chart 
 
 ## Future Improvements/Scope
-
+ D3 focuses on data, so we can create realtime charts or other visualization tool as data change.
 
 Note: This is just a POC, so basic charts have been created. It doesn't contain any complex or real time chart.
