@@ -38,7 +38,7 @@ Configurable environment variables can be found in the folders `./config`.
 ## Style
 The project contains a .eslintrc file that defines the style rules for the project.
 
-##D3
+## D3
 D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
 D3.js is a data visualization tool, you need to code and develop your own library.
 
@@ -51,7 +51,7 @@ D3.js is a data visualization tool, you need to code and develop your own librar
 7. Transitions: D3 provides the transition() function. This is quite powerful because internally, D3 works out the logic to interpolate between your values and find the intermittent states.
 8. Interaction and animation: D3 provides great support for animation with functions like duration(), delay() and ease(). Animations from one state to another are fast and responsive to user interactions.
 
-##Advantages of D3:
+## Advantages of D3:
 - D3.js is a Javascript library. So, it can be used with any JS framework of your choice like React.js, Angular.js or Ember.js.
 - D3 focuses on data, so it is the most appropriate and specialized tool for data visualizations.
 - D3 is open-source. So you can work with the source code and add your own features.
