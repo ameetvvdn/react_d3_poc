@@ -75,7 +75,7 @@ D3.js is a data visualization tool, you need to code and develop your own librar
     1. Bar Chart
     2. Line Chart
 
-###### 1. Bar Chart
+    1. ###### Bar Chart
     ![Alt text](https://raw.githubusercontent.com/ameetvvdn/react_demo/master/screenshots/BarChart.JPG?raw=true "Optional Title")
 
     sample.json: [
@@ -90,7 +90,7 @@ D3.js is a data visualization tool, you need to code and develop your own librar
      Bars.js: Bars are rendered completely by React and d3 is used for math. Besides calculating bar dimensions, we can use d3          to calculate color based on value. 
      BarCharts: Component contains SVG element where we will draw the bar chart.
 
-###### 2. Line Chart
+    2. ######  Line Chart
     ![Alt text](https://raw.githubusercontent.com/ameetvvdn/react_demo/master/screenshots/LineChart.JPG?raw=true "Optional Title")
     sample.json: [
         { day: '02-11-2016', count: 180 },
