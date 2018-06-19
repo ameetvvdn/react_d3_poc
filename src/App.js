@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.scss';
+import './styles/App.scss';
 import LineChart from './Charts/LineChart';
 import BarChart from './Charts/BarChart';
 
