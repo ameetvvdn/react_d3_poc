@@ -1,4 +1,4 @@
-D3 React Demo
+D3 React POC
 ==============
 
 Exploring D3.js (v4): ES2015/ES6, webpack, D3 and React.js
