@@ -71,11 +71,12 @@ D3.js is a data visualization tool, you need to code and develop your own librar
 - Highly customizable because of it’s low-level API.
 
 ## D3 in Current Project
-- Type of Charts
+- ###### Type of Charts
     1. Bar Chart
     2. Line Chart
 
-1. Bar Chart
+###### 1. Bar Chart
+    ![Alt text](https://raw.githubusercontent.com/ameetvvdn/react_demo/master/screenshots/BarChart.JPG?raw=true "Optional Title")
 
     sample.json: [
         { title: 'A', value: 21, year: 1984 },
@@ -89,7 +90,7 @@ D3.js is a data visualization tool, you need to code and develop your own librar
      Bars.js: Bars are rendered completely by React and d3 is used for math. Besides calculating bar dimensions, we can use d3          to calculate color based on value. 
      BarCharts: Component contains SVG element where we will draw the bar chart.
 
-2. Line Chart
+###### 2. Line Chart
     ![Alt text](https://raw.githubusercontent.com/ameetvvdn/react_demo/master/screenshots/LineChart.JPG?raw=true "Optional Title")
     sample.json: [
         { day: '02-11-2016', count: 180 },
@@ -104,8 +105,6 @@ D3.js is a data visualization tool, you need to code and develop your own librar
      Dots.js: Component shows value plot in line charts.
      LineCharts: Component contains SVG element where we will draw the line chart.
      ToolTip.js: ToolTip component show data related to value in line chart 
-
-## Future Improvements/Scope
 
 
 Note: This is just a POC, so basic charts have been created. It doesn't contain any complex or real time chart.
