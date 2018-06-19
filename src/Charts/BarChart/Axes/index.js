@@ -1,1 +1,1 @@
-export { default } from './Axes'
+export { default } from './Axes';
